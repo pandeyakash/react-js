@@ -1,0 +1,32 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "React tutorial by Akshay Saini",
+  "homepage": "https://github.com/pandeyakash/react-js#readme",
+  "bugs": {
+    "url": "https://github.com/pandeyakash/react-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandeyakash/react-js.git"
+  },
+  "license": "ISC",
+  "author": "Akash Pandey",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "browserslist": [
+    "last 1 Chrome version",
+    "last 1 Firefox version"
+  ]
+}

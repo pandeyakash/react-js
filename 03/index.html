@@ -1,0 +1,79 @@
+<!-- Write a basic hello world in plain HTML -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Hello World</h1>
+  </div>
+</body>
+</html> -->
+
+
+<!-- Write a basic hello world in HTML and JS -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+  </div>
+  <script>
+    const container = document.getElementById('container');
+    const heading = document.createElement('h1');
+    heading.textContent = 'Hello World';
+    container.appendChild(heading);
+  </script>
+</body>
+</html> -->
+
+
+<!-- Hello World using React -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <script>
+    const heading = React.createElement('h1', null, 'Hello World');
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(heading);
+  </script>
+</body>
+</html> -->
+
+
+<!--01 Writing Hello World using React with javascript code in seperate file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="./app.js" type="module"></script>
+
+  <!-- //The order of the script tags is important. The React and ReactDOM libraries must be loaded before your app.js file, as your code depends on them. If you load app.js first, it will throw an error because React and ReactDOM won't be defined yet. -->
+</body>
+</html>
